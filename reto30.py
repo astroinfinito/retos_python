@@ -18,9 +18,11 @@ def funcion():
     frase3 = "todos"
     for i in range(3):
         if i < 3:
-            print(frase,end="\n*")
-            print(frase2,end="\n*")
-            print(frase3,end="\n*")
+            print("**********")
+            print("*",frase,"  * ",end="\n")
+            print("*",frase2,"    * ",end="\n")
+            print("*",frase3," * ",end="\n")
+            print("**********")   
         else:
             print(i)
 
